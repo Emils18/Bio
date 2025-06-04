@@ -1,0 +1,214 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <div id="particles-js"></div>
+    <div class="container">
+        
+        
+       <h1> Educational Background </h1>
+
+    <a href="http://127.0.0.1:5500/resume/activity2(resume).html" class="button">back</a>
+    <p>Bachelor of Science in Information Technology <br>
+        University Name, City, State <br>
+        Graduation Date: Month Year<br>
+        
+        Completed a comprehensive program in computer science, gaining a strong foundation in programming languages,
+         algorithms, and software development principles.<br>
+        
+        Master of Business Administration (MBA)
+        University Name, City, State
+        Graduation Date: Month Year
+        
+        Acquired advanced business management skills, including strategic planning, leadership, and 
+        financial analysis. Combining technical expertise with business acumen for effective IT project management."<br>
+        </p>
+
+
+</div>
+<style>
+    body {
+     background-color: #1e1e24;
+     color: aliceblue;
+    overflow: hidden;
+
+}
+.container{
+    max-width: 600px;
+    margin: -800px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(85, 80, 75);
+    transition: box-shadow 0.3s, background-color 0.3s;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    
+  
+    
+   
+}
+
+.container p {
+    margin-bottom: 100px;
+    line-height: 2.5;
+}
+.container:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #333; /* Change the background color on hover */
+    
+}
+.particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  
+    
+}
+.button{
+    margin: 300px auto;
+    transition: all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 5px 15px;
+    outline: none;
+    border-radius: 4px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 295;
+    left: 10%;
+    transform: translateX(-50%);
+   
+    
+}
+.button:hover {
+    color: #001F3F;
+    background-color: #fff;
+}
+
+</style>
+<script>
+    particlesJS("particles-js",{
+    "particles": {
+        "number": {
+            "value": 100, // Adjust the number of particles
+            "density": {
+                "enable": true,
+                "value_area": 800 // Increase or decrease the area where particles appear
+            }
+        },
+        "color": {
+            "value": "#ffffff" // Set the color of the particles
+        },
+        "shape": {
+            "type": "circle", // You can change the shape of the particles
+            "stroke": {
+                "width": 0,
+                "color": "#000000"
+            },
+            "polygon": {
+                "nb_sides": 5
+            }
+        },
+        "opacity": {
+            "value": 0.5, // Adjust the opacity of the particles
+            "random": true,
+            "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+            }
+        },
+        "size": {
+            "value": 5, // Adjust the size of the particles
+            "random": true,
+            "anim": {
+                "enable": false,
+                "speed": 40,
+                "size_min": 0.1,
+                "sync": false
+            }
+        },
+        "line_linked": {
+            "enable": true,
+            "distance": 150, // Adjust the distance between connected particles
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+        },
+        "move": {
+            "enable": true,
+            "speed": 6, // Adjust the speed of particles
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+            }
+        }
+    },
+    "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "grab"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "push"
+            },
+            "resize": true
+        },
+        "modes": {
+            "grab": {
+                "distance": 140,
+                "line_linked": {
+                    "opacity": 1
+                }
+            },
+            "bubble": {
+                "distance": 400,
+                "size": 40,
+                "duration": 2,
+                "opacity": 8,
+                "speed": 3
+            },
+            "repulse": {
+                "distance": 200,
+                "duration": 0.4
+            },
+            "push": {
+                "particles_nb": 4
+            },
+            "remove": {
+                "particles_nb": 2
+            }
+        }
+    },
+    "retina_detect": true
+});
+</script>
+
+</body>
+</html>
