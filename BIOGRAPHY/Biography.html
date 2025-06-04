@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biography</title>
+</head>
+<body>
+
+    <header>
+      
+        <div class="animation-area">
+                <ul class="box-area">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                </div>
+    <div class="container">
+     
+        <div class="header-button">
+        <a href="" class="button">Home</a></div>
+            <div class="header-button">
+                <a href="" class="button2">About Me</a></div>
+                <div class="header-button">
+                    <a href="http://127.0.0.1:5500/resume/clickthisfirst.html" class="button3">More</a></div>
+
+             
+    <h1 class="poppy">Hi I am </h1>
+    <h1 class="puppy">Emelio Mondares</h1>
+    <h1 class="Text">I'm a student of UCLM</h1>
+    <h1 class="toti">And I Love <span class="auto-input"></span></h1> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <div id="picture">
+    <img src="mio.png" height="150" width="150" class=" floating">
+
+    <div class="icon-container">
+        
+    <h3 class="email">
+        <a href="mailto:emeliomondares14@gmail.com"><i class="fas fa-phone"></i></a><h1 class="call">Contact ME</h1>
+         </h3>
+         <h3 class="telle">
+          <a href="tell: 09433346306"><i class="fa-regular fa-envelope fa-xl"></i></a></h3><h1 class="more">Gmail Me</h1>
+        </div>
+    </div>
+    
+
+    
+        </header>
+        <div class="bottom-container animate-on-scroll">
+            <h1>Emelio Mondares: From Basak Kagudoy </h1>
+
+    <p>Emelio Mondares, hailing from the charming town of Basak Kagudoy in Lapu-Lapu City, has forged a remarkable path in the world of coding and web development.
+        <br> Emelio's journey began at Marigondon High School, where their passion for technology ignited.</p>
+
+    <p><strong>Early Passion for Technology:</strong><br>
+    Emelio's love for coding sparked during their high school years in Marigondon. They found joy in exploring the intricacies of web design and web development,
+     <br>spending countless hours learning the art of creating websites.</p>
+
+    <p><strong>College and Coding Adventures:</strong><br>
+    Emelio continued their education journey at the University of Cebu Lapu-Lapu and Mandaue (UCLM), where they pursued a degree in Computer Science. <br>College provided the perfect platform for Emelio to delve deeper into their coding passion. They eagerly embraced opportunities to work on web development projects, turning their passion into a promising career path.</p>
+
+    <p><strong>Becoming a Software Engineer:</strong><br>
+    After graduating, Emelio's dream of becoming a software engineer came true. They secured their first job in the field and embarked on a journey of continuous learning and growth.<br> Emelio's dedication to coding and web development soon led them to excel in their role and gain recognition for their skills.</p>
+
+    <p><strong>Coding Beyond the Workspace:</strong><br>
+    Emelio's love for coding extends beyond the office. In their free time, they immerse themselves in personal coding projects, always seeking to expand their horizons in the ever-evolving tech world. <br>Emelio's story is a testament to the power of passion and perseverance in the pursuit of one's dreams.</p>
+
+
+    </div>
+
+   
+
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: rgb(255, 239, 8);
+    margin-bottom: 900px;
+
+}
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bottom-container h1, .bottom-container p, .bottom-container strong {
+    text-align: left; /* Align text to the left within the container */
+    color: #050303; /* Set text color for paragraphs and headers */
+}
+.bottom-container {
+    max-width: 800px; /* Adjust the max-width to fit the content better */
+    margin: 100px auto; /* Center the container horizontally and adjust margin for vertical alignment */
+    padding: 20px; /* Add some space around the content */
+    text-align: left; /* Align text to the left within the container */
+    background-color:  rgba(255, 255, 255, 0.829);
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.486);
+    margin-top: 300px;
+    bottom: 0;
+    
+        }
+.container{
+    max-width: 1200px;
+    max-height: 490px; 
+    margin: -40px auto; /* Center the container horizontally */
+    padding: 110px; /* Add some space around the content */
+    text-align: left; /* Center the content inside the container */
+    background-color:  rgba(254, 255, 251, 0.829);
+    border-radius: 90px;
+    position: relative;
+    box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.486);
+    margin-top: 100px;
+   
+   
+}
+.box-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box-area li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.479);
+    animation: animate 20s linear infinite;
+}
+
+.box-area li:nth-child(1) {
+    left: 86%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(2) {
+    left: 12%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.5s;
+    animation-duration: 10s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(3) {
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 5.5s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(4) {
+    left: 70%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0.5s;
+    animation-duration: 13s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(5) {
+    left: 65%;
+    width: 40px;
+    height: 40px;
+    animation-delay: 0s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(6) {
+    left: 15%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3.5s;
+    bottom: 0;
+}
+
+/* Additional Boxes */
+.box-area li:nth-child(7) {
+    left: 30%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 2s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(8) {
+    left: 50%;
+    width: 45px;
+    height: 45px;
+    animation-delay: 4s;
+    animation-duration: 15s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(9) {
+    left: 25%;
+    width: 120px;
+    height: 120px;
+    animation-delay: 6s;
+    bottom: 0;
+}
+
+/* More Boxes */
+.box-area li:nth-child(10) {
+    left: 45%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 7s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(11) {
+    left: 5%;
+    width: 55px;
+    height: 55px;
+    animation-delay: 8s;
+    animation-duration: 12s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(12) {
+    left: 75%;
+    width: 90px;
+    height: 90px;
+    animation-delay: 9s;
+    bottom: 0;
+}
+
+/* Even More Boxes */
+.box-area li:nth-child(13) {
+    left: 40%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 10s;
+    animation-duration: 14s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(14) {
+    left: 60%;
+    width: 70px;
+    height: 70px;
+    animation-delay: 11s;
+    bottom: 0;
+}
+
+.box-area li:nth-child(15) {
+    left: 10%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 12s;
+    bottom: 0;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-800px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+
+
+.header-button {
+           position: relative;
+           right: -299px;
+           top: -44px
+           
+
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #007bff; /* Change to your desired button color */
+            color: #ffffff; /* Change to your desired text color */
+            background-color: rgb(58, 57, 57);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: .5s;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+
+        .button:hover {
+            color:#f0ec06;
+            text-shadow: 0 0 5px #ffee10;
+            box-shadow: 0 0 13px #ffee10;
+        }
+
+        
+
+
+
+
+
+        
+
+
+        .button2 {
+            position: relative;
+            right: -200px;
+            top: -48px;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #007bff; /* Change to your desired button color */
+            color: #ffffff; /* Change to your desired text color */
+            background-color: rgb(58, 57, 57);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: .5s;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .button2:hover {
+            color:#f0ec06;
+            text-shadow: 0 0 5px #ffee10;
+            box-shadow: 0 0 13px #ffee10;
+        }
+        
+
+
+
+        .button3 {
+            position: relative;
+            right: -470px;
+            top: -95px;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #007bff; /* Change to your desired button color */
+            color: #ffffff; /* Change to your desired text color */
+            background-color: rgb(58, 57, 57);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: .5s;
+            font-size: 20px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .button3:hover {
+            color:#f0ec06;
+            text-shadow: 0 0 5px #ffee10;
+            box-shadow: 0 0 13px #ffee10;
+        }
+
+
+
+
+img{
+    position: relative;
+    top: -430px;
+    right: -750px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%; /* Makes the image round */
+    background-color: rgb(85, 85, 83);
+    box-shadow: 0px 35px 30px rgba(15, 15, 15, 0.945);
+    
+   
+    
+}
+
+.icon-container {
+    display: flex; /* Use flexbox to arrange the icons horizontally */
+    justify-content: center; /* Center the icons horizontally within the container */
+    align-items: center; /* Center the icons vertically within the container */
+    position: relative;
+    top: -480px;
+    right: 435px;
+
+}
+.fa-envelope{
+  
+  position: relative; 
+  right: -29px;
+  background-color: rgb(44, 43, 43);
+  text-decoration: none;
+  width: 50px;
+  padding: 2px; /* Add padding to control the size of the background */
+    border-radius: 50%; /* Make the background rounded */
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 90%;
+  font-size: 29px;
+  color: #fffdfd;
+  transition: .5s;
+  justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+.more{
+    position: relative;
+    right: -39px;
+}
+.fa-phone{
+  
+  position: relative; 
+  
+  text-decoration: none;
+  background-color: rgb(44, 43, 43);
+  width: 50px;
+  padding: 5px; /* Add padding to control the size of the background */
+    border-radius: 50%; /* Make the background rounded */
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 90%;
+  font-size: 29px;
+  color: #ffffff;
+  transition: .5s;
+  justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+.call{
+    position: relative;
+    right: -17px;
+}
+
+
+.fa-phone:hover{
+   color: #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+ 
+  box-shadow: 0 0 13px #ffee10;
+  
+}
+
+
+.fa-envelope:hover{
+   color: #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+  box-shadow: 0 0 13px #ffee10;
+}
+
+.floating , img{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, 0px); }   
+}
+
+.toti{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: -170px;
+    right: 10px;
+}
+
+
+
+
+
+.container, .mio, .poppy, .puppy {
+            animation: fadeIn 2s ease-in-out; /* Apply the fadeIn animation to these elements */
+}
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(20);
+            }
+        }
+        .text2{
+    font-size: 30px;
+        word-spacing: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #050303;
+        position: relative;
+        top: -200px;
+        right: 10px;
+        
+       
+}
+    .puppy{
+        font-size: 60px;
+        word-spacing: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        top: -150px;
+        right: 10px;
+    }
+    .poppy{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        top: -140px ;
+        right: 10px;
+        font-size: 40px;
+    }
+    .Text{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        top: -170px;
+        right: 10px;
+
+    }
+    .auto-input{
+        color: rgb(245, 221, 8);
+        animation: glow 1s infinite alternate;
+    }
+    @keyframes glow {
+            0% {
+                text-shadow: 0 0 10px rgb(243, 243, 239); /* Start with a subtle glow */
+            }
+            100% {
+                text-shadow: 0 0 20px rgb(255, 255, 250), 0 0 30px rgb(255, 255, 252), 0 0 40px rgb(255, 255, 255); /* Increase the glow intensity */
+            }
+        }
+   
+    
+    </style>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings:["Coding", "Web Design",  "Web development", "Games"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+    <script>
+        // Function to handle intersection events
+        function handleIntersection(entries, observer) {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // When the container is in view, add the "animate" class to trigger the animation
+              entry.target.classList.add("animate");
+              // Unobserve to prevent further triggering
+              observer.unobserve(entry.target);
+            }
+          });
+        }
+      
+        // Create an observer instance
+        const observer = new IntersectionObserver(handleIntersection, {
+          root: null, // Use the viewport as the root
+          rootMargin: "0px", // No margin
+          threshold: 0.5, // Trigger when at least 50% of the container is visible
+        });
+      
+        // Target the element with the "animate-on-scroll" class
+        const target = document.querySelector(".animate-on-scroll");
+      
+        // Start observing the target element
+        observer.observe(target);
+      </script>
+</body>
+</html>
